@@ -8,6 +8,7 @@ manifest:
     - name: zephyr
       remote: zmkfirmware
       revision: v3.5.0+zmk-fixes
+      path: modules/zephyr
       clone-depth: 1
       import:
         name-blocklist:
